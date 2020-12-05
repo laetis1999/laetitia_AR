@@ -1,0 +1,51 @@
+<html lang="fr"
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      #global {
+        background-color: cyan;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 20px;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+      }
+
+      #global div{
+        background-color: yellow;
+        border: dotted blue 1px;
+
+      }
+
+      .box1 {
+        grid-area: 1 / 1 / 4 / 7;
+      }
+      .box2 {
+        grid-area : 1 / 7 / 4 / 9;
+      }
+      .box3 {
+        grid-area : 1 / 9 / 4 / 13;
+      }
+      .box4 {
+        grid-area: 4 / 1 / 6 / 5;
+      }
+      .box5 {
+        grid-area: 4 / 5 / 6 / 13;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <div id= global>
+      <div class="box1">Super boîte</div>
+      <div class="box2">Méga Boîte</div>
+      <div class="box3">Génial boîte</div>
+      <div class="box4">Nulle boîte</div>
+      <div class="box5">Hyper boîte</div>
+
+    </div>
+  </body>
+</html>

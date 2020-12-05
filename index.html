@@ -1,13 +1,41 @@
 <html lang="fr"
   <head>
     <meta charset="utf-8">
+    <style>
+
+      #global {
+        background-color: blue;
+        border: 20px dotted red;
+      }
+
+      .groupe {
+        color:red;
+        width: 100px;
+        height: 50px;
+        background-color: yellow;
+        margin: 50px;
+        padding: 50px;
+        }
+
+        #test {
+          background-color: cyan;
+          position: fixed;
+          right: 10px;
+          top: 10px;
+        }
+
+    </style>
   </head>
 
   <body>
-    <div>
-      <div>One</div>
-      <div>Two</div>
-      <div>Three yeah</div>
+    <div id="global">
+      <div class="groupe">One</div>
+      <div class="groupe">Two</div>
+      <div class="groupe"id="test">boloss</div>
+      <div class="groupe">One</div>
+      <div class="groupe">Two</div>
+      <div class="groupe">One</div>
+      <div class="groupe">Two</div>
     </div>
   </body>
 </html>
